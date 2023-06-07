@@ -1,0 +1,454 @@
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.left-navigation-list,
+.right-navigation-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 20px;
+}
+.header-navigation {
+  flex-grow: 1;
+  align-items: center;
+}
+
+.left-navigation-list-link,
+.right-navigation-list-link {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #ffffff;
+}
+.left-navigation-list-link:hover,
+.right-navigation-list-link:hover {
+  color: #ff6c00;
+}
+
+.white-button {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  padding: 12px;
+  color: #ffffff;
+}
+.white-button:hover,
+.black-button:hover {
+  cursor: pointer;
+  color: #ff6c00;
+}
+
+.hero-svg {
+  fill: rgba(157, 164, 189, 0.6);
+  position: relative;
+  left: -30px;
+  top: 20px;
+}
+.hero-section-container {
+  background-image: url(../images/herobackground.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1070px;
+  height: 680px;
+  margin-left: 155px;
+}
+.hero-section-subtitle {
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+  padding-left: 150px;
+  padding-top: 100px;
+}
+.hero-section-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+  color: #ffffff;
+  margin-left: 120px;
+}
+.hero-section-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  margin-left: 120px;
+}
+.about-section {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.services-section-list {
+  display: flex;
+}
+.about-section-images {
+  display: flex;
+  flex: 1 1 50%;
+  gap: 30px;
+  margin-right: 20px;
+}
+.about-section-subtitle {
+  text-transform: uppercase;
+  color: #303030;
+  margin-left: 20px;
+}
+.about-section-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #303030;
+}
+
+.about-section-text-first-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-section-text-second-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.black-button {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+  box-sizing: border-box;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  padding: 12px;
+  background-color: transparent;
+}
+.services-section-subtitle {
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+  padding-top: 150px;
+}
+.services-section-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.service {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.portfolio-section-cards {
+  width: 170px;
+  height: 133px;
+  background: #f7f7f7;
+}
+.portfolio-section-card-number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  color: #303030;
+  padding-top: 20px;
+}
+.portfolio-section-card-description {
+  text-align: center;
+  color: #303030;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+.plus-color {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ff6c00;
+}
+.reasons-section-subtitle {
+  text-transform: uppercase;
+  color: #303030;
+  margin-left: 20px;
+}
+
+.reasons-section-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #303030;
+}
+.reasons-section-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.barbers-section-subtitle {
+  text-transform: uppercase;
+  color: #303030;
+  margin-left: 20px;
+}
+
+.barbers-section-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #303030;
+  margin-left: 40px;
+}
+.barbers-section-item-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+.barbers-section-item-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+.activities-section-subtitle {
+  text-transform: uppercase;
+  color: #303030;
+  margin-left: 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.left-menu {
+  width: 155px;
+  height: 680px;
+  position: relative;
+  background: #ffffff;
+  margin-left: 180px;
+}
+.header-logo {
+  margin-left: -100px;
+  position: absolute;
+}
+.left-navigation-list {
+  margin-left: 50px;
+}
+.right-navigation-list {
+  margin-right: 30px;
+}
+.left-menu-item {
+  transform: rotate(-90deg);
+  position: relative;
+  display: flex;
+  top: 200px;
+}
+
+.left-menu-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+.instagram {
+  position: absolute;
+  right: 300px;
+  text-decoration: none;
+}
+.youtube {
+  position: absolute;
+  right: 200px;
+  text-decoration: none;
+}
+.left-menu-link:hover {
+  color: #ff6c00;
+  cursor: pointer;
+}
+.left-services-section-list,
+.right-services-section-list {
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+  width: 800px;
+  height: 240px;
+}
+.aside-svg {
+  position: relative;
+  top: 600px;
+  left: 60px;
+}
+.about-section-text {
+  width: 470px;
+  margin-right: 120px;
+}
+.services-section-button {
+  margin: 0 auto;
+}
+.portfolio-section {
+  display: flex;
+}
+
+.portfolio-section-card-item-1 {
+  position: relative;
+  top: 100px;
+}
+.portfolio-section-card-item-2 {
+  position: relative;
+  left: 200px;
+  top: -40px;
+}
+.portfolio-section-card-item-3 {
+  position: relative;
+  top: -80px;
+}
+.portfolio-section-card-item-4 {
+  position: relative;
+  top: -220px;
+  left: 200px;
+}
+
+.reasons-section {
+  margin-left: 350px;
+  margin-right: 150px;
+  margin-top: 130px;
+}
+.barbers-section-list,
+.activities-section-list {
+  display: flex;
+  gap: 30px;
+}
+.services-svg {
+  background: rgba(157, 164, 189, 0.12);
+  transform: rotate(90deg);
+  width: 1px;
+  height: 262.86px;
+  top: 300px;
+  position: absolute;
+}
+.right-services-list {
+  margin-left: 150px;
+}
+.price {
+  margin-left: 100px;
+}
+.services-svg:nth-child(2) {
+  background: rgba(157, 164, 189, 0.12);
+  transform: rotate(90deg);
+  width: 1px;
+  height: 262.86px;
+  top: 1000px;
+  position: relative;
+}
+.barbers-section-svg {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.barbers-section {
+  background: #f7f7f7;
+  padding-bottom: 120px;
+}
+.barbers-section-svg-item {
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 10px;
+}
+.barbers-section-svg-item:hover {
+  fill: #ff6c00;
+}
+.activities-section {
+  margin-top: 120px;
+}
+.svg-title {
+  display: flex;
+  margin-top: -20px;
+}
+.services-section {
+  background-image: url(../images/secondbackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 692px;
+  background-color: rgba(17, 19, 25, 0.9);
+  background-blend-mode: multiply;
+  backdrop-filter: saturate(80%);
+}
+.portfolio-section-items,
+.about-section-items {
+  display: flex;
+}
+.booking-section {
+  background: #191c26;
+  padding-top: 90px;
+  height: 634px;
+}
+.booking-section-form-title,
+.booking-section-contacts-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.booking-section-contacts {
+  position: absolute;
+  left: 1000px;
+  bottom: -3600px;
+}
+.booking-section-contacts-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  text-decoration: none;
+}
+.booking-section-contacts-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
